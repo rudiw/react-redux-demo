@@ -3,6 +3,7 @@ import store from "./reducer";
 import CakeContainer from "./component/CakeContainer.js";
 import HookIceCream from "./component/HookIceCreamContainer";
 import ItemContainer from "./component/ItemContainer";
+import UserContainer from "./component/UserContainer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <ItemContainer />
         <CakeContainer />
         <HookIceCream />
+        <UserContainer />
       </div>
     </Provider>
   );
